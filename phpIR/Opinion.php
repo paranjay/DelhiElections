@@ -56,7 +56,7 @@ class Opinion {
                 }
                 
                 arsort($classScores);
-                print_r($classScores);
+                //print_r($classScores);
                 return key($classScores);
         }
 
